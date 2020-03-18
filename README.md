@@ -1,2 +1,0 @@
-# gitcmd
-# config user
