@@ -1,0 +1,6 @@
+echo "# gitcmd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lixiaomei-git/gitcmd.git
+git push -u origin master
