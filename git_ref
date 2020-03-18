@@ -1,0 +1,13 @@
+HEAD
+	指向当前分支的最近提交
+ORIG_HEAD
+	某些操作，例如merge和reset，会把调整为新值之前的先前版本的HEAD记录到ORIG_HEAD中，可以使用ORIG_HEAD来恢复或者回滚到之前的版本或者做一个比较
+FETCH_HEAD
+	使用远程库时，git fetch会将所有抓取分支的头记录到./git/FETCH_HEAD中
+MERGE_HEAD
+	当合并操作正在进行时，其他分支的头暂时记录在MERGE_HEAD中，MERGE_HEAD是正在合并进HEAD的提交
+
+master^	master分支中倒数第二个提交
+如果一个提交存在多个父提交，这个一定是合并操作产生的
+给定一个提交C，C^1是第一个父提交，C^2是第二个父提交
+给定一个提交C，C～1是第一个父提交，C～2是第一个祖父提交
