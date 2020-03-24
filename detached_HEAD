@@ -1,0 +1,10 @@
+以下情况，会创建分离的HEAD
+1.检出的提交不是分支的头部
+2.检出一个追踪分支
+3.检出标签引用的提交
+4.启动git bisect
+5.使用git submodule update命令
+
+如果发现在一个分离的头部，如果需要保留
+git checkout -b newbranch
+如果不保留，直接切回原分支
