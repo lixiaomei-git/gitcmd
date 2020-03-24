@@ -1,5 +1,0 @@
-git reset 是破坏性的
-git reset --soft : 将HEAD引用指向给定提交，索引（staged）和工作目录的内容保持不变
-git reset --mixed（默认）:将HEAD指向给定提交，索引改变，工作目录的内容保持不变
-git reset --hard : 将HEAD引用指向给定提交，索引改变，工作目录的所有内容丢失
-reset会把原始HEAD存在ORIG_HEAD中
